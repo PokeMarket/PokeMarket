@@ -1,0 +1,142 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 100vh;
+    background-image: url("../images/pokemon_background.png");
+    background-size: cover;
+    background-position: 0% 10%;
+}
+header {
+    display: inline;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+nav ul li {
+    padding: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    background-color:rgb(177, 25, 25);
+    padding: 1rem 0.5rem;
+    width: 90%;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+.btnGroup {
+    display: flex;
+}
+
+.pokemonContainer {
+    height: 80vh;
+    background-color: rgb(38, 38, 38);
+    border-radius: 1rem;
+    padding: 0.5rem;
+
+    /*layout*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.pokemonContainer::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.pokemonContainer {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+.pokemon {
+    background-color: white;
+    border: 0.1rem solid black;
+    border-radius: 10px;
+    
+    /*layout*/
+    padding: 1rem 1rem;
+    margin: 0.5rem 0rem;
+
+
+}
+.pokemon div {
+    border: 0.1rem solid rgb(206, 206, 206);
+    padding: 0.1rem 0rem;
+    border-radius: 10rem;
+    text-align: left;
+    width: 5rem;
+}
+.pokemon div span {
+    border: 0.1rem solid rgb(206, 206, 206);
+    padding: 0.1rem;
+    background-color: darkorange;
+    border-radius: 10rem;
+}
+.pokemon img {
+    width: 10rem;
+}
+
+/* body {
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: darkgrey;
+}
+header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: silver;
+}
+nav {
+    display: inline;
+}
+
+.App {
+    background-color: blueviolet;
+    border-radius: 5rem;
+    margin: 3rem;
+    
+}
+
+.pokeContainer {
+    display: flex;
+    margin: 3rem 5rem;
+    background-color: aliceblue;
+    border-radius: 1%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.pokemon {
+    text-align: center;
+    border: 0.5rem solid silver;
+    border-radius: 10%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+}
+
+.pokemon img {
+    width: 200px;
+} */
